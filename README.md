@@ -32,8 +32,9 @@ This repository contains the implementation of our research on evaluating and mi
 ## Quick Start
 
 # Clone repository
-git clone https://github.com/deblina3/lucidity-bound-framework.git
-cd lucidity-bound-framework
+git clone git clone https://github.com/Sayar-212/TheLucidityBound.git
+
+cd TheLucidityBound
 
 # Install dependencies
 pip install -r requirements.txt
