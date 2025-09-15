@@ -1,5 +1,3 @@
-# lucidity-bound-framework
-A Unified Framework for Hallucination Benchmarking and Mitigation in Large Language Models
 # The Lucidity Bound: A Unified Framework for Hallucination Benchmarking and Mitigation in Large Language Models
 
 **Authors:** Deblina Chowdhury, Sayar Basu, Piyush Kumar Bharti  
@@ -31,14 +29,15 @@ This repository contains the implementation of our research on evaluating and mi
 ```
 ## Quick Start
 
-# Clone repository
-git clone git clone https://github.com/Sayar-212/TheLucidityBound.git
-
+```bash
+git clone https://github.com/Sayar-212/TheLucidityBound.git
 cd TheLucidityBound
+```
 
 # Install dependencies
+```
 pip install -r requirements.txt
-
+```
 ## Main Results
 
 - LLaMA 3 8B: Lucidity Score 62.2 (Rank 1)
@@ -49,12 +48,15 @@ pip install -r requirements.txt
 
 ## Citation
 
+```bibtex
 @misc{chowdhury2025lucidity,
   title={The Lucidity Bound: A Unified Framework for Hallucination Benchmarking and Mitigation in Large Language Models},
   author={Chowdhury, Deblina and Basu, Sayar and Bharti, Piyush Kumar},
   year={2025},
   note={Under review}
 }
+```
+
 
 ## Contact
 
