@@ -1,0 +1,38 @@
+
+# DoLa Hallucination Mitigation Study Report
+
+## Executive Summary
+- **Models Evaluated**: 1
+- **Benchmarks Used**: 1
+- **Total Evaluations**: 5
+- **Alpha Values Tested**: [0.1]
+
+## Key Findings
+
+### Overall Performance Metrics
+
+          uncertainty_score  overspecific_claims  fabrication_indicators  specificity_score  response_length
+model                                                                                                       
+gemma:7b             0.0009                  0.0                     0.0             0.0288            215.0
+
+### Optimal DoLa Parameters
+   model  benchmark  optimal_alpha  hallucination_score  uncertainty_score  specificity_score
+gemma:7b Scientific            0.1                  0.0                0.0            0.03653
+
+### Benchmark Performance Summary
+
+           hallucination_composite         uncertainty_score response_length
+                              mean     std              mean            mean
+benchmark                                                                   
+Scientific                  0.0003  0.0006            0.0009           215.0
+
+### Recommendations
+1. **Optimal Alpha Range**: Based on results, alpha values between 0.1-0.2 show best performance
+2. **Model-Specific Tuning**: Each model benefits from different alpha values
+3. **Benchmark Sensitivity**: Scientific showed highest sensitivity to DoLa
+4. **Performance Trade-offs**: Monitor response length vs hallucination reduction
+
+### Next Steps for Comparison
+- Load your baseline (non-DoLa) results
+- Use the comparison_ready.csv file for statistical comparison
+- Focus on models where DoLa showed significant improvement

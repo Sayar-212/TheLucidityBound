@@ -1,0 +1,189 @@
+model_name,benchmark,question,question_index,response,mitigation_strategy,alpha_parameter,response_length_words,uncertainty_indicators,specificity_measure,hallucination_markers,fabrication_signals,repetition_index,generation_time_seconds,error_occurred
+gemma:7b,Scientific,How does photosynthesis work in plants?,0,"**Photosynthesis in plants works through a complex series of chemical reactions involving light energy, water, and carbon dioxide:**
+
+**Step 1: Light Absorption**
+
+- Chlorophyll molecules in plant cells absorb light energy from the sun.
+- Chlorophyll molecules have a porphyrin ring structure with an embedded magnesium atom.
+- The absorbed energy excites electrons in the chlorophyll molecule.
+
+
+**Step 2: Electron Transport Chain**
+
+- Excited electrons from chlorophyll molecules are passed along a chain of electron acceptors.
+- As electrons are passed, their energy is used to generate ATP (adenosine triphosphate), a molecule that stores energy.
+
+
+**Step 3: Carbon Fixation**
+
+- Carbon dioxide (CO2) and water (H2O) are taken in by plants through their leaves.
+- ATP and electrons from the electron transport chain are used to drive the chemical reaction that combines CO2 and H2O to form glucose (a sugar molecule).
+- Glucose is the primary energy source for plants.
+
+
+**Step 4: Oxygen Release**
+
+- As electrons are used in the carbon fixation process, oxygen atoms are released as a byproduct.
+- These oxygen atoms are released into the atmosphere through stomata (pores on the surface of leaves).
+
+
+**Factors influencing Photosynthesis:**
+
+- **Light intensity:** The intensity and duration of sunlight influence the rate of photosynthesis.
+- **Temperature:** Temperature affects the rate of chemical reactions involved in photosynthesis.
+- **",DoLa,0.1,219,0.0,0.0365296803652968,0,0,0.4383561643835616,30.68917989730835,False
+gemma:7b,Scientific,What is the theory of evolution by natural selection?,1,"**The theory of evolution by natural selection** is a scientific theory that explains how biological diversity evolves over time. 
+
+
+**Key concepts:**
+
+**1. Variation:**
+- Random differences in DNA between individuals.
+- Creates diversity within a population.
+
+
+**2. Inheritance:**
+- Some variations are passed to offspring.
+- Genetic traits are inherited from parents to offspring.
+
+
+**3. Selection:**
+- Individuals with advantageous variations survive and reproduce better in their environment.
+- Individuals with disadvantageous variations suffer higher mortality or have lower reproductive success.
+
+
+**4. Evolution:**
+- Gradual changes in the characteristics of a population over generations.
+- Populations adapt to their environment through natural selection.
+
+
+**5. Genetic Equilibrium:**
+- A state where the frequency of alleles in a population remains constant over time.
+- Random genetic drift can disrupt equilibrium and lead to evolution.
+
+
+**The process of evolution by natural selection:**
+
+1. **Variation:** Genetic variations arise due to random mutations in DNA.
+2. **Inheritance:** Some variations are passed to offspring.
+3. **Selection:** Individuals with advantageous variations survive and reproduce better.
+4. **Evolution:** Populations gradually change over generations.
+
+**Evidence supporting the theory:**
+
+- Fossil record
+- Comparative anatomy
+- Molecular biology
+- Experimental evidence from selective breeding
+
+
+**Key principles:**
+
+- Evolution is a gradual and ongoing process.
+- Evolution is driven by natural selection.
+- Populations",DoLa,0.1,213,0.0,0.04225352112676056,0,0,0.41314553990610325,29.284874200820923,False
+gemma:7b,Scientific,How do greenhouse gases affect climate?,2,"**Greenhouse gases (GHGs) affect climate by:**
+
+**1. Trapping heat in the atmosphere:**
+
+- GHG molecules in the atmosphere allow sunlight to pass through but absorb infrared radiation emitted by the Earth's surface.
+- This trapped heat warms the atmosphere and creates a greenhouse effect.
+
+
+**2. Rising global temperatures:**
+
+- As more GHGs accumulate in the atmosphere, more heat is trapped and global temperatures rise.
+- This warming has led to climate change and its associated impacts.
+
+
+**3. Changes in precipitation patterns:**
+
+- Increased greenhouse gas concentrations alter the water cycle, leading to changes in precipitation patterns.
+- More intense and frequent heatwaves, droughts, and floods have been observed.
+
+
+**4. Sea level rise:**
+
+- As global temperatures rise, glaciers and ice sheets melt, adding water to the oceans.
+- The warming oceans also expand, causing sea levels to rise.
+
+
+**5. Extreme weather events:**
+
+- Climate change has amplified the frequency and intensity of extreme weather events, such as hurricanes, floods, wildfires, and heatwaves.
+
+
+**6. Climate disruption:**
+
+- The effects of climate change extend beyond temperature increases.
+- Changes in ecosystems, biodiversity, agriculture, and human health are among the many consequences.
+
+
+**7. Feedback mechanisms:**
+
+- Climate change can trigger various feedback mechanisms, such as the release of methane from thawing permafrost and the destruction of forests, further amplifying greenhouse gas effects.",DoLa,0.1,219,0.0,0.0319634703196347,0,0,0.365296803652968,28.03654146194458,False
+gemma:7b,Scientific,What is quantum mechanics?,3,"**Quantum mechanics** is a branch of physics that deals with the behavior of matter and energy at the atomic and subatomic levels. It explains the physical properties of systems that exhibit wave-particle duality, meaning they can behave as both waves and particles.
+
+**Key concepts of quantum mechanics:**
+
+* **Quantization:** The process of breaking down continuous physical quantities into discrete packets called ""quanta.""
+* **Wave-particle duality:** The idea that matter and energy exhibit both wave-like and particle-like behavior.
+* **Superposition:** The ability of a particle to exist in multiple states until it is observed.
+* **Entanglement:** The phenomenon where two or more particles are connected in a way that their fates are intertwined, even when separated by vast distances.
+
+**Principles of quantum mechanics:**
+
+* **The uncertainty principle:** It is impossible to know both the exact position and momentum of a particle at the same time.
+* **The superposition principle:** A particle exists in a combination of states until it is observed.
+* **The measurement problem:** The act of measurement can collapse the wave function of a particle, determining its state.
+
+**Applications of quantum mechanics:**
+
+* **Electronics:** transistors, lasers, solar cells
+* **Medicine:** MRI, quantum therapy
+* **Materials science:** high-strength materials, superconductors
+* **Computing:** quantum computers
+
+**Implications of quantum mechanics:**
+
+* **Non-locality:** The idea that information can",DoLa,0.1,215,0.004651162790697674,0.0,0,0,0.4,29.298046350479126,False
+gemma:7b,Scientific,How does DNA replication occur?,4,"**DNA replication occurs through a complex series of biochemical reactions that precisely duplicate the genetic material.**
+
+**Step 1: Replication Initiation**
+
+- DNA helicase enzymes break the hydrogen bonds between complementary nucleotides, creating a replication fork.
+- Single-strand binding proteins stabilize the single-stranded DNA regions.
+
+
+**Step 2: DNA Unwinding**
+
+- Topoisomerase enzymes alter DNA topology by introducing negative supercoils, which helps to relieve tension and facilitate strand separation.
+- Single-strand binding proteins prevent DNA strands from reannealing.
+
+
+**Step 3: DNA Binding and Elongation**
+
+- DNA polymerase enzymes bind to the DNA template and initiate DNA synthesis.
+- DNA polymerase can only synthesize DNA in a 5' to 3' direction, so the DNA strands are synthesized in opposite directions.
+- DNA polymerase proofreads the newly synthesized DNA to ensure accuracy.
+
+
+**Step 4: DNA Synthesis**
+
+- DNA polymerase adds new nucleotides to the growing DNA chain, matching the template strand.
+- DNA ligase enzymes join the fragments of DNA synthesized by DNA polymerase.
+
+
+**Step 5: Replication Termination**
+
+- Replication ends when DNA polymerase reaches a termination sequence on the DNA template.
+- The DNA strands are rejoined by DNA ligase enzymes.
+
+
+**Key enzymes involved in DNA replication:**
+
+- DNA helicase
+- Single-strand binding proteins
+- Topoisomerase
+- DNA polymerase
+- DNA lig",DoLa,0.1,209,0.0,0.03349282296650718,0,0,0.4736842105263158,28.93797779083252,False

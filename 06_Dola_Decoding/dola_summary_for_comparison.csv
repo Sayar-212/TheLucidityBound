@@ -1,0 +1,4 @@
+,,uncertainty_indicators,uncertainty_indicators,hallucination_markers,hallucination_markers,fabrication_signals,fabrication_signals,response_length_words,response_length_words,generation_time_seconds
+,,mean,std,mean,sum,mean,sum,mean,std,mean
+model_name,benchmark,,,,,,,,,
+gemma:7b,Scientific,0.0009,0.0021,0.0,0,0.0,0,215.0,4.2426,29.2493
