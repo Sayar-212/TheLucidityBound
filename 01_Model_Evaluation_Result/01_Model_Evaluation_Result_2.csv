@@ -1,0 +1,6 @@
+,TruthfulQA,HHEMRate,Medical,Legal,Scientific,Lucidity Score,Significance,Effect Size
+deepseek-llm,52.7,5.0,19.2,21.3,14.4,2.9,p=0.9812,
+mistral:7b,53.3,5.2,32.8,27.1,18.0,1.8,p=0.9812,
+llama3:8b,56.0,7.0,26.4,26.4,17.1,0.0,p=0.9812,0.318
+gemma:7b,50.0,1.9,21.9,11.2,18.4,2.7,p=0.9812,
+qwen2.5:3b,51.3,4.3,32.1,31.6,18.9,0.0,p=0.9812,

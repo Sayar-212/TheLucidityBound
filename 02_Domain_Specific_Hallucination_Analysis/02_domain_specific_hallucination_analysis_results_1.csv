@@ -1,0 +1,6 @@
+Model,Medical_Hallucination,Legal_Hallucination,Scientific_Hallucination,Avg_Hallucination,Medical_Rank,Legal_Rank,Scientific_Rank,Overall_Rank
+deepseek-llm,80.04,80.16,85.5,81.9,5.0,4.0,5.0,4.0
+mistral:7b,68.8,72.28,81.38,74.15,2.0,2.0,2.0,2.0
+llama3:8b,71.74,73.28,83.12,76.05,3.0,3.0,4.0,3.0
+gemma:7b,77.8,88.2,81.54,82.51,4.0,5.0,3.0,5.0
+qwen2.5:3b,66.88,68.64,81.04,72.19,1.0,1.0,1.0,1.0
